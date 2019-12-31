@@ -1,5 +1,6 @@
-void setup(){
+void setup(){ 
   size(320,480);
+  //size(1440,3040); //GalaxyNote10+
   strokeWeight(20);
 }
 
