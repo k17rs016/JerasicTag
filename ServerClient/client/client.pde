@@ -3,7 +3,7 @@ import netP5.*;
 
 OscP5 oscP5;
 NetAddress myRemoteLocation;
-String ServerAddress = "192.168.0.113"; //ServerAddress
+String ServerAddress = "172.16.1.1"; //ServerAddress
 
 void setup() {
   size(800,600);
