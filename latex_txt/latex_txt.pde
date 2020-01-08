@@ -55,7 +55,7 @@ void draw() {
     b.paint();
 
   g.beginDraw();
-  g.background(255,255,240);
+  g.background(0);
   for (Line l : lines)
     l.paint(g);
   g.endDraw();
