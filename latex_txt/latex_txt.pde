@@ -67,10 +67,14 @@ void draw() {
 
     noFill();
     strokeWeight(1);
-    stroke(#000000);
+    stroke(#ffffff);
     ellipse(mouseX, mouseY, penW * 4 + 1 , penW * 4 + 1);
   } else
     cursor();
+    
+      fill(0);
+    noStroke();
+    ellipse(450,310,95,95);
 }
 
 void mousePressed() {
