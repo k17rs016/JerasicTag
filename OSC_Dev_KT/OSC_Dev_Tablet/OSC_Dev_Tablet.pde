@@ -4,6 +4,7 @@ import netP5.*;
 OscP5 oscP5;
 NetAddress myRemoteLocation;
 String ServerAddress = "localhost"; //ServerAddress
+//String ServerAddress = ""; //RrpIPAddress
 
 PGraphics g;
 
