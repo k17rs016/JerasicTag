@@ -8,7 +8,7 @@ int clicked;
 
 void setup() {
   size(800,600);
-  frameRate(60);
+  frameRate(240);
 
   oscP5 = new OscP5(this,12000);
   mouseLoc1 = new PVector(width/2, height/2);
